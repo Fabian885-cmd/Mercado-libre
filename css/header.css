@@ -1,4 +1,5 @@
 body{
+    background-color:  #ebebeb;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,10 +35,17 @@ header{
 }
 .burger-menu {
     color: white; 
-    font-size: 24px; 
-    margin-right: 155px;
-    margin-left: 155px; 
+    font-size: 24px;  
     background-color: #1259c3;
-    text-align: center;
+    display: inline-block;
     border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
