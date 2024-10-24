@@ -1,0 +1,35 @@
+form{
+    padding: 20px;
+    background-color:  #ebebeb;
+    font-family: "roboto", sans-serif;
+    padding-top: 15px;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="date"]{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+}
+input[type="checkbox"] {
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: center;
+}
+.checkbox label{
+    margin-right: 10px;
+}
+input[type="submit"], input[type="reset"]{
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #1259c3;
+    border-radius: 10px;
+}

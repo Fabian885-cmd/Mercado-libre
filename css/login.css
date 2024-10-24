@@ -1,0 +1,47 @@
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color:  #ebebeb;
+    font-family: "roboto", sans-serif;
+    padding-top: 15px;
+}
+.user-name, .user-paswor{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+}
+input[type="text"], input[type="password"]{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #1259c3;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: #666;
+
+}
